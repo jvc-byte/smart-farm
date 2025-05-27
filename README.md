@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Farm Website
+
+A modern website for a smart farming solutions company built with Next.js and Tailwind CSS.
+
+## Features
+
+- Responsive navigation bar with active state highlighting
+- Modern hero section with gradient background
+- Feature-rich solutions and technology pages
+- Contact form with client-side validation
+- Reusable UI components (Navbar and Footer)
+
+## Tech Stack
+
+- Next.js 13+ (App Router)
+- React
+- Tailwind CSS
+- TypeScript
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone git@github.com:jvc-byte/smart-farm.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Start the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website will be available at `http://localhost:3000`
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+smart-farm/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx           # Home page
+│   │   ├── contact/
+│   │   │   └── page.tsx       # Contact form page
+│   │   ├── solutions/
+│   │   │   └── page.tsx       # Solutions page
+│   │   └── technology/
+│   │       └── page.tsx       # Technology page
+│   └── components/
+│       └── ui/
+│           ├── Navbar.tsx     # Navigation component
+│           └── Footer.tsx     # Footer component
+├── public/
+│   └── images/                # Static images
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+The website can be deployed using Vercel. Follow these steps:
+
+1. Sign up for a Vercel account
+2. Connect your GitHub repository
+3. Deploy with one click using the Vercel platform
+
+For more detailed deployment instructions, refer to the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
