@@ -8,8 +8,8 @@ export default function Home() {
           <div className="absolute inset-0 bg-[url('/images/hero-bg.svg')] bg-cover opacity-20" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <h1 className="text-5xl md:text-7xl font-bold text-center mb-8 text-gray-900">
-            Monitor and Manage Your Farm at your comfort
+          <h1 className="text-5xl md:text-7xl font-bold text-center mb-8 text-gray-900 leading-relaxed">
+            Conveniently Monitor and Manage Your Farm
           </h1>
           <p className="text-xl text-center text-gray-600 mb-12">
             Revolutionizing Agriculture with IoT Sensors and Cloud Analytics
