@@ -9,7 +9,7 @@ export default function Home() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <h1 className="text-5xl md:text-7xl font-bold text-center mb-8 text-gray-900">
-            Smart Farm Solutions - Monitor and Manage Your Farm where ever you are!
+            Monitor and Manage Your Farm where ever you are!
           </h1>
           <p className="text-xl text-center text-gray-600 mb-12">
             Revolutionizing Agriculture with IoT Sensors and Cloud Analytics
